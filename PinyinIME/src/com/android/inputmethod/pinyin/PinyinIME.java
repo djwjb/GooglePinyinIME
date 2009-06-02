@@ -267,6 +267,8 @@ public class PinyinIME extends InputMethodService {
             updateIcon(mInputModeSwitcher.switchLanguageWithHkb());
             resetToIdleState(true);
 
+            requestHideSelf(0);
+
             int allMetaState = KeyEvent.META_ALT_ON | KeyEvent.META_ALT_LEFT_ON
                     | KeyEvent.META_ALT_RIGHT_ON | KeyEvent.META_SHIFT_ON
                     | KeyEvent.META_SHIFT_LEFT_ON
