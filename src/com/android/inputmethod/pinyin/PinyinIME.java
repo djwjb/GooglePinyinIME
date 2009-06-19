@@ -1070,6 +1070,7 @@ public class PinyinIME extends InputMethodService {
         } catch (Exception e) {
             Log.e(TAG, "Fail to show the PopupWindow.");
         }
+        setCandidatesViewShown(false);
 
         if (null != mSkbContainer && mSkbContainer.isShown()) {
             mSkbContainer.toggleCandidateMode(false);
