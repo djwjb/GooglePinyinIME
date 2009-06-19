@@ -267,8 +267,6 @@ public class PinyinIME extends InputMethodService {
             updateIcon(mInputModeSwitcher.switchLanguageWithHkb());
             resetToIdleState(true);
 
-            requestHideSelf(0);
-
             int allMetaState = KeyEvent.META_ALT_ON | KeyEvent.META_ALT_LEFT_ON
                     | KeyEvent.META_ALT_RIGHT_ON | KeyEvent.META_SHIFT_ON
                     | KeyEvent.META_SHIFT_LEFT_ON
@@ -1026,6 +1024,7 @@ public class PinyinIME extends InputMethodService {
         } catch (Exception e) {
             Log.e(TAG, "Fail to show the PopupWindow.");
         }
+        setCandidatesViewShown(false);
 
         if (null != mSkbContainer && mSkbContainer.isShown()) {
             mSkbContainer.toggleCandidateMode(false);
