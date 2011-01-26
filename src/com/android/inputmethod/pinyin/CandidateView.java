@@ -258,13 +258,12 @@ public class CandidateView extends View {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         int mOldWidth = mMeasuredWidth;
-        int mOldHeight = mMeasuredHeight;
 
         setMeasuredDimension(getDefaultSize(getSuggestedMinimumWidth(),
                 widthMeasureSpec), getDefaultSize(getSuggestedMinimumHeight(),
                 heightMeasureSpec));
 
-        if (mOldWidth != mMeasuredWidth || mOldHeight != mMeasuredHeight) {
+        if (mOldWidth != mMeasuredWidth) {
             onSizeChanged();
         }
     }
