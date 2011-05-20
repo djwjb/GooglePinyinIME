@@ -1,0 +1,9 @@
+Code-Review+2: Dianne Hackborn <hackbod@android.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Code-Review+1: Steve Kondik <shade@chemlab.org>
+Code-Review+1: Christian Mehlmauer <FireFart@gmail.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Tue, 24 Aug 2010 09:47:38 -0700
+Reviewed-on: https://review.source.android.com/16695
+Project: platform/packages/inputmethods/PinyinIME
+Branch: refs/heads/master
