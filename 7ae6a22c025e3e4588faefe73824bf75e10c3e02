@@ -1,0 +1,9 @@
+Change-Id: I7ae6a22c025e3e4588faefe73824bf75e10c3e02
+Code-Review+1: Jean-Baptiste Queru <jbq@google.com>
+Verified+1: Jean-Baptiste Queru <jbq@google.com>
+Code-Review+2: Ying Wang <wangying@android.com>
+Submitted-by: Jean-Baptiste Queru <jbq@google.com>
+Submitted-at: Thu, 03 May 2012 18:48:02 -0700
+Reviewed-on: https://android-review.googlesource.com/32795
+Project: platform/packages/inputmethods/PinyinIME
+Branch: refs/heads/master
