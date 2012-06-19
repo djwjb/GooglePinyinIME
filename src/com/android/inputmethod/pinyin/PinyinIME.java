@@ -289,6 +289,8 @@ public class PinyinIME extends InputMethodService {
             keyChar = ' ';
         } else if (keyCode == KeyEvent.KEYCODE_APOSTROPHE) {
             keyChar = '\'';
+        } else if (keyCode == KeyEvent.KEYCODE_SEMICOLON) {
+            keyChar = ';';
         }
 
         if (mInputModeSwitcher.isEnglishWithSkb()) {

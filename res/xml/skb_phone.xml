@@ -39,7 +39,7 @@
       <toggle_state state_id="@string/toggle_phone_sym" label="N"/>
     </key>
     <key icon="@drawable/num5" code="12">
-      <toggle_state state_id="@string/toggle_phone_sym" label="暂 停" code="44"/>
+      <toggle_state state_id="@string/toggle_phone_sym" label="暂 停" code="55"/>
     </key>
     <key icon="@drawable/num6" code="13">
       <toggle_state state_id="@string/toggle_phone_sym" label=","/>
@@ -53,7 +53,7 @@
         icon="@drawable/numstar"/>
     </key>
     <key icon="@drawable/num8" code="15">
-      <toggle_state state_id="@string/toggle_phone_sym" label="等 待" code="51"/>
+      <toggle_state state_id="@string/toggle_phone_sym" label="等 待" code="74"/>
     </key>
     <key icon="@drawable/num9" code="16">
       <toggle_state state_id="@string/toggle_phone_sym" label="\#"/>
