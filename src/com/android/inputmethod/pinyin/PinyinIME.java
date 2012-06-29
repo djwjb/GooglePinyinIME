@@ -819,6 +819,7 @@ public class PinyinIME extends InputMethodService {
         if (null != mComposingView) mComposingView.reset();
         if (resetInlineText) commitResultText("");
         resetCandidateWindow();
+        setCandidatesViewShown(false);
     }
 
     private void chooseAndUpdate(int candId) {
