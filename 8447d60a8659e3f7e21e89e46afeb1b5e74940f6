@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAIbH///bA\u003d",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1003981
+      },
+      "writtenOn": "2012-08-15T21:26:00Z",
+      "side": 1,
+      "message": "No, I don\u0027t think we need this.\nLOCAL_AAPT_INCLUDE_ALL_RESOURCES means to include all locale/dpi resources. Here we prefer to including the resource according to the current product configuration.",
+      "revId": "8447d60a8659e3f7e21e89e46afeb1b5e74940f6",
+      "serverId": "85c56323-6fa9-3386-8a01-6480fb634889",
+      "unresolved": false
+    }
+  ]
+}
