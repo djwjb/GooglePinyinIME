@@ -1,0 +1,7 @@
+Verified+1: Deckard Autoverifier <deckard@android.com>
+Code-Review+2: Elliott Hughes <enh@google.com>
+Submitted-by: Elliott Hughes <enh@google.com>
+Submitted-at: Wed, 14 May 2014 01:55:40 +0000
+Reviewed-on: https://android-review.googlesource.com/92463
+Project: platform/packages/inputmethods/PinyinIME
+Branch: refs/heads/master
